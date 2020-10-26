@@ -1,3 +1,6 @@
+body {
+  width: 1768px;
+}
 main {
   max-width: 1600px;
   max-height: 5870px;
@@ -5,11 +8,21 @@ main {
 
 header {
   font-family: "Mulish", sans-serif;
+  display: flex;
+  flex-flow: row wrap;
 }
-.head {
+
+.logo {
+  width: 160px;
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.site-logo {
   font-size: 17px;
   font-weight: bold;
-  color: #ffffff;
+  color: white;
   height: 41px;
   width: 41px;
   border-radius: 21px;
@@ -18,9 +31,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 65px;
-  left: 296px;
 }
 .trafalgar {
   font-size: 24px;
@@ -28,9 +38,7 @@ header {
   color: #233348;
   height: 29, 27px;
   width: 107px;
-  position: absolute;
-  top: 87px;
-  left: 349px;
+  text-decoration: none;
 }
 b {
   font-family: "Mulish", sans-serif;
