@@ -1,0 +1,137 @@
+main {
+  max-width: 1600px;
+  max-height: 5870px;
+}
+.test {
+  font-family: "Mulish", sans-serif;
+}
+header {
+  font-family: "Mulish", sans-serif;
+}
+.head {
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  height: 41px;
+  width: 41px;
+  border-radius: 21px;
+  background-color: #458ff6;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 65px;
+  left: 296px;
+}
+.trafalgar {
+  font-size: 24px;
+  font-weight: bold;
+  color: #233348;
+  height: 29, 27px;
+  width: 107px;
+  position: absolute;
+  top: 87px;
+  left: 349px;
+}
+b {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #1f1534;
+  position: absolute;
+  top: 94px;
+}
+.home {
+  font-weight: bold;
+  left: 968px;
+  width: 51px;
+}
+.find-a-doctor {
+  left: 1059px;
+  width: 110px;
+}
+.apps {
+  left: 1209px;
+  width: 44px;
+}
+.testimonials {
+  left: 1293px;
+  width: 104px;
+}
+.about-us {
+  left: 1437px;
+  width: 76px;
+  right: 87px;
+}
+
+.dots {
+  position: absolute;
+  left: 55px;
+  width: 132px;
+  top: 184px;
+}
+.first-img {
+  padding-right: 58px;
+  position: absolute;
+  left: 849px;
+  width: 693px;
+  top: 201px;
+}
+main {
+  font-family: "Mulish", sans-serif;
+  position: absolute;
+  left: 299px;
+}
+.mt {
+  color: #000000;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 56px;
+  position: absolute;
+  width: 427px;
+  height: 112px;
+  top: 307px;
+}
+p {
+  color: #7d7987;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32px;
+  position: absolute;
+  width: 440px;
+  height: 96px;
+  top: 444px;
+}
+.consult-today {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  height: 56px;
+  width: 200px;
+  border-radius: 40px;
+  border-color: #ffffff;
+  background-color: #458ff6;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 585px;
+}
+li {
+  list-style-type: none;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+}
+.learn-more {
+  font-size: 18px;
+  font-weight: bold;
+  color: #458ff6;
+  height: 56px;
+  width: 200px;
+  border-radius: 40px;
+  border-color: #458ff6;
+  background-color: #ffffff;
+  text-align: center;
+}
