@@ -1,14 +1,23 @@
 body {
   width: 1768px;
 }
+
 main {
-  max-width: 1600px;
-  max-height: 5870px;
+  width: 1487px;
+  height: 5870px;
 }
 
+.first {
+  width: 1487px;
+  height: 719px;
+  display: flex;
+  flex-flow: row wrap;
+}
 header {
   font-family: "Mulish", sans-serif;
+  width: 1490px;
   display: flex;
+  justify-content: space-between;
   flex-flow: row wrap;
 }
 
@@ -19,6 +28,7 @@ header {
   flex-direction: row;
   align-items: center;
 }
+
 .site-logo {
   font-size: 17px;
   font-weight: bold;
@@ -32,6 +42,7 @@ header {
   align-items: center;
   justify-content: center;
 }
+
 .trafalgar {
   font-size: 24px;
   font-weight: bold;
@@ -40,43 +51,37 @@ header {
   width: 107px;
   text-decoration: none;
 }
-b {
+
+.navigation {
+  width: 545px;
+  height: 23px;
   font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-weight: normal;
   color: #1f1534;
-  position: absolute;
-  top: 94px;
-}
-.home {
-  font-weight: bold;
-  left: 968px;
-  width: 51px;
-}
-.find-a-doctor {
-  left: 1059px;
-  width: 110px;
-}
-.apps {
-  left: 1209px;
-  width: 44px;
-}
-.testimonials {
-  left: 1293px;
-  width: 104px;
-}
-.about-us {
-  left: 1437px;
-  width: 76px;
-  right: 87px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
 }
 
-.dots {
-  position: absolute;
-  left: 55px;
-  width: 132px;
-  top: 184px;
+.first-block {
+  width: 1487px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
 }
+
+.text-block {
+  width: 445px;
+  height: 338px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.home {
+  font-weight: bold;
+}
+
 .first-img {
   padding-right: 58px;
   position: absolute;
@@ -84,21 +89,14 @@ b {
   width: 693px;
   top: 201px;
 }
-main {
-  font-family: "Mulish", sans-serif;
-  position: absolute;
-  left: 299px;
-}
+
 .mt {
   color: #000000;
   font-size: 48px;
   font-weight: bold;
   line-height: 56px;
-  position: absolute;
-  width: 427px;
-  height: 112px;
-  top: 307px;
 }
+
 p {
   color: #7d7987;
   font-size: 21px;
@@ -109,6 +107,7 @@ p {
   height: 96px;
   top: 444px;
 }
+
 .consult-today {
   font-size: 18px;
   font-weight: bold;
