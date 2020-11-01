@@ -18,14 +18,11 @@ main {
 header {
   font-family: "Mulish", sans-serif;
   width: 1490px;
+  margin-top: 80px;
   margin-left: 299px;
   display: flex;
   justify-content: space-between;
-  flex-flow: row wrap;
-}
-
-.home {
-  font-weight: bold;
+  align-items: center;
 }
 
 .logo {
@@ -65,10 +62,14 @@ header {
   font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-weight: normal;
-  color: #1f1534;
+  color: #7d7987;
   display: flex;
   justify-content: space-between;
-  align-content: space-between;
+}
+
+.home {
+  color: #1f1534;
+  font-weight: bold;
 }
 
 .first-block {
@@ -149,6 +150,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  outline: none;
 }
 
 li {
