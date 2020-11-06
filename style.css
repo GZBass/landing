@@ -184,6 +184,7 @@ header {
 }
 
 h2 {
+  font-family: "Mulish", sans-serif;
   font-size: 36px;
   height: 10px;
 }
@@ -258,7 +259,7 @@ p {
 .third {
   width: 1273px;
   height: 477px;
-  margin: 135px 0 0 192px;
+  margin: 196px 0 0 135px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -274,9 +275,9 @@ p {
 }
 
 .leading-helthcare h2 {
-  font-family: "Mulish", sans-serif;
   font-size: 36px;
   font-weight: bold;
+  line-height: 56px;
   width: 420px;
   height: 112px;
 }
@@ -284,4 +285,13 @@ p {
 .leading-helthcare p {
   width: 450px;
   height: 120px;
+}
+
+.fourth {
+  width: ;
+  height: ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
