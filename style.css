@@ -1,9 +1,7 @@
 body {
-  width: 1768px;
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
-  align-content: center;
 }
 
 main {
@@ -159,7 +157,7 @@ header {
 .second {
   width: 1487px;
   height: 1133px;
-  margin: 50px 0 0 59px;
+  margin: 50px 0 0 145px;
   display: flex;
   justify-content: center;
 }
@@ -191,9 +189,10 @@ h2 {
 
 .line {
   width: 56px;
-  height: 2px;
+  height: 3px;
   background-color: black;
   border-radius: 2px;
+  margin: -10px 0 0 0;
 }
 
 li {
@@ -259,7 +258,7 @@ p {
 .third {
   width: 1273px;
   height: 477px;
-  margin: 196px 0 0 135px;
+  margin: 220px 0 0 215px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -268,7 +267,7 @@ p {
 
 .leading-helthcare {
   width: 486px;
-  height: 388px;
+  height: 420px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -283,15 +282,42 @@ p {
 }
 
 .leading-helthcare p {
-  width: 450px;
+  width: 360px;
   height: 120px;
 }
 
 .fourth {
-  width: ;
-  height: ;
+  width: 1366px;
+  height: 675px;
+  margin: -5px -46px 0 280px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
+}
+
+.fourth .dots-box {
+  display: flex;
+  align-self: flex-start;
+}
+
+.download-apps {
+  width: 420px;
+  height: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.download-apps h2 {
+  width: 254px;
+  height: 96px;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 56px;
+}
+
+.download-apps p {
+  width: 340px;
+  height: 120px;
 }
